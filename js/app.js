@@ -19,3 +19,14 @@ else{
   alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
 }
 
+//second question
+let answerTwo = prompt('I have a few hobbies. Is surfing one of them?').toLowerCase().trim();
+if(answerTwo === 'yes' || answerTwo === 'y'){
+  alert('That\'s incorrect!');
+}
+else if(answerTwo === 'no' || answerTwo === 'n'){
+  alert('That\'s correct!');
+}
+else{
+  alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
+}
