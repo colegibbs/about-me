@@ -30,3 +30,15 @@ else if(answerTwo === 'no' || answerTwo === 'n'){
 else{
   alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
 }
+
+//third question
+let answerThree = prompt('Do I have any children?').toLowerCase().trim();
+if(answerThree === 'yes' || answerThree === 'y') {
+  alert('Wrong!');
+}
+else if(answerThree === 'no' || answerThree === 'n') {
+  alert('Right!');
+}
+else{
+  alert(`Sorry ${firstName}, but you entered an invlaid answer. Let's move on!`);
+}
