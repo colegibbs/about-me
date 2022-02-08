@@ -10,5 +10,12 @@ alert('Before I let you onto my website your going to play a guessing game to le
 //first question
 let answerOne = prompt('Did I go to college for Chemistry?').toLowerCase().trim();
 if(answerOne === 'yes' || answerOne === 'y'){
-  
+  alert(`Yes ${firstName} that's correct.`);
 }
+else if(answerOne === 'no' || answerOne === 'n'){
+  alert(`No ${firstName} that's incorrect.`);
+}
+else{
+  alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
+}
+
