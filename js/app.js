@@ -67,3 +67,5 @@ else{
   alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
 }
 
+//final message
+alert('Thanks for playing this guessing game! Enjoy the site!');
