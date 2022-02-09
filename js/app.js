@@ -69,3 +69,28 @@ else{
 
 //final message
 alert('Thanks for playing this guessing game! Enjoy the site!');
+
+//6th question
+let number = 4;
+for(let i = 0; i < 4; i++) {
+  let answerSix = prompt('What number am I thinking of?');
+  answerSix = Number(answerSix);
+
+  if(answerSix > number) {
+    alert('Your guess was too high!');
+  }
+  else if(answerSix < number) {
+    alert('Your guess was too low!');
+  }
+  else if(answerSix === number){
+    alert('That\'s correct!');
+    break;
+  }
+  else {
+    alert('This was not a valid answer, but it still counted as a guess!')
+  }
+
+  if(i === 3) {
+    alert(`The correct answer was ${number}`);
+  }
+}
