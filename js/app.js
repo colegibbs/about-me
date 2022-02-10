@@ -43,17 +43,19 @@ function questionTwo(){
 }
 
 //third question
-let answerThree = prompt('Do I have any children?').toLowerCase().trim();
-console.log('answerThree:', answerThree);
-if(answerThree === 'yes' || answerThree === 'y') {
-  alert('Wrong!');
-}
-else if(answerThree === 'no' || answerThree === 'n') {
-  alert('Right!');
-  correctAnswers++;
-}
-else{
-  alert(`Sorry ${firstName}, but you entered an invlaid answer. Let's move on!`);
+function questionThree(){
+  let answerThree = prompt('Do I have any children?').toLowerCase().trim();
+  console.log('answerThree:', answerThree);
+  if(answerThree === 'yes' || answerThree === 'y') {
+    alert('Wrong!');
+  }
+  else if(answerThree === 'no' || answerThree === 'n') {
+    alert('Right!');
+    correctAnswers++;
+  }
+  else{
+    alert(`Sorry ${firstName}, but you entered an invlaid answer. Let's move on!`);
+  }
 }
 
 //fourth question
