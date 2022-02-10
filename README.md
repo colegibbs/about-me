@@ -39,3 +39,15 @@ Author: Cole Gibbs
 - When you reset css everything is reset. There are no heading sizes or list markings.
 - `Number()` is a good way to convert a string to a number
 - `break;` will only break you out of the current loop. As in if you are in a nested loop, it will break you out of the nested loop and not the nested and the parent loop.
+
+Before I started at Code Fellows I was a Chemistry major in college and before that I was an Engineering major. Although you don't need great math skill to code, I find that the feeling I get while doing both are very similar. They both require logic which puts a particular pressure on the mind. Logic is very powerful and I am finding that Chemistry, Engineering, and Coding to be all very logical. For me, Chemistry and coding are and have unfolded for me in my mind very nicely. Today I did have a few thinks that I didn't expect.
+
+The first was using the `break;` command in a loop. I noticed that you can't break from both a nested and parent loop at the same time or at least I couldn't figure out how to. I ended up using a variable in the condition of if statements that were nested inside of a for loop. This way when I implemented the nested for loop I could change the value of that variable. This caused the other if statements in the parent for loop not to run and for the loop to terminate by a final if statement with the inverse of the current variable value in the condition. In this if statement was a `break;` that caused the loop to stop because it was not inside of another nested loop.
+
+The second thing that surprised me was how much of the css is reset with the reset.css file. There is absolutely no css at all. Not even header sizes or list markers are present after the rest. I was surprised to learn that this is an industry standard. Although, when I think about it it makes sense. I'm sure there are inconsistencies in the way browsers render content and resetting it gives the developer full control.
+
+I enjoyed using for loops. I particularly liked if statements and loops nested inside of loops. I did notice that it's best to use a different variable name in a nested for loop than you did in the parent on. In the parent for loop I used `i` and in the nested, child for loop I used `j`.
+
+I'm excited to use functions next. I think it will clean up the code I have written a lot. There is a lot of repeats that I'm sure functions will eliminate and make it much more readable and practical.  
+
+I also learned that I am not fond of CSS. The styling of a web page doesn't excite me very much. It's the logic and functionality that I really am excited about writing and learning. I'm hoping that there are tools that allow me to used less CSS than I otherwise would.
