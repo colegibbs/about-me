@@ -59,17 +59,19 @@ function questionThree(){
 }
 
 //fourth question
-let answerFour = prompt('Did I grow up in Washinton?').toLowerCase().trim();
-console.log('answerFour:', answerFour);
-if(answerFour === 'yes'|| answerFour === 'y') {
-  alert('CORRECT!!!');
-  correctAnswers++;
-}
-else if(answerFour === 'no' || answerFour === 'n') {
-  alert('INCORRECT!');
-}
-else {
-  alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
+function questionFour(){
+  let answerFour = prompt('Did I grow up in Washinton?').toLowerCase().trim();
+  console.log('answerFour:', answerFour);
+  if(answerFour === 'yes'|| answerFour === 'y') {
+    alert('CORRECT!!!');
+    correctAnswers++;
+  }
+  else if(answerFour === 'no' || answerFour === 'n') {
+    alert('INCORRECT!');
+  }
+  else {
+    alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
+  }
 }
 
 //fifth question
