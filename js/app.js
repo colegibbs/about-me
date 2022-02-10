@@ -75,17 +75,19 @@ function questionFour(){
 }
 
 //fifth question
-let answerFive = prompt('Do I come from the food industry?').toLowerCase().trim();
-console.log('answerFive: ', answerFive);
-if(answerFive === 'yes' || answerFive === 'y') {
-  alert('You are correct.');
-  correctAnswers++;
-}
-else if(answerFive === 'no' || answerFive === 'n'){
-  alert('You are incorrect.');
-}
-else{
-  alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
+function questionFive(){
+  let answerFive = prompt('Do I come from the food industry?').toLowerCase().trim();
+  console.log('answerFive: ', answerFive);
+  if(answerFive === 'yes' || answerFive === 'y') {
+    alert('You are correct.');
+    correctAnswers++;
+  }
+  else if(answerFive === 'no' || answerFive === 'n'){
+    alert('You are incorrect.');
+  }
+  else{
+    alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
+  }
 }
 
 //6th question
