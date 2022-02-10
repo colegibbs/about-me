@@ -1,3 +1,5 @@
+# Week 1
+
 ## Lab 02
 
 ### About Me
