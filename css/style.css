@@ -1,6 +1,6 @@
 body {
-  background-color: lightgray;
-  
+  background-color: #d8f3dc;
+  color: #081c15;
 }
 
 h1 {
@@ -25,8 +25,10 @@ li {
 
 ul{
   list-style-type: disc;
+  margin: auto;
 }
 
 ol {
-  list-style-type: lower-alpha;
+  list-style-type: decimal;
+  
 }
