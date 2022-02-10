@@ -120,28 +120,30 @@ function questionSix(){
 }
 
 //7th question
-for(let i = 0; i < 6; i++) {
-  let answerSeven = prompt('Guess one of my favorite musics genres.').toLowerCase().trim();
-  console.log('answerSeven: ', answerSeven);
-  let favoriteMusic = ['metal', 'rap', 'rock', 'folk', 'hip hop'];
-  let correct = false;
+function questionSeven(){
+  for(let i = 0; i < 6; i++) {
+    let answerSeven = prompt('Guess one of my favorite musics genres.').toLowerCase().trim();
+    console.log('answerSeven: ', answerSeven);
+    let favoriteMusic = ['metal', 'rap', 'rock', 'folk', 'hip hop'];
+    let correct = false;
 
-  for(let j = 0; j < favoriteMusic.length; j++) {
-    if(answerSeven === favoriteMusic[j]){
-      alert('That is correct! Congrats!');
-      correctAnswers++;
-      correct = true;
+    for(let j = 0; j < favoriteMusic.length; j++) {
+      if(answerSeven === favoriteMusic[j]){
+        alert('That is correct! Congrats!');
+        correctAnswers++;
+        correct = true;
+      }
     }
-  }
 
-  if(i < 5 && correct === false){
-    alert('Sorry, but you\'re incorrect! Try again.');
-  }
-  else if(i === 5 && correct === false) {
-    alert(`I'm sorry, but your out of guesses.The correct possible answers were: ${favoriteMusic}`);
-  }
-  else if(correct === true) {
-    break;
+    if(i < 5 && correct === false){
+      alert('Sorry, but you\'re incorrect! Try again.');
+    }
+    else if(i === 5 && correct === false) {
+      alert(`I'm sorry, but your out of guesses.The correct possible answers were: ${favoriteMusic}`);
+    }
+    else if(correct === true) {
+      break;
+    }
   }
 }
 
