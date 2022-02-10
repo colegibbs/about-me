@@ -2,6 +2,7 @@
 
 //welcome message
 let firstName = prompt('What is your name?');
+console.log('fristName:', firstName);
 alert(`Hey ${firstName}, it's great to have you visiting my website!`);
 let correctAnswers = 0;
 
@@ -10,6 +11,7 @@ alert('Before I let you onto my website your going to play a guessing game to le
 
 //first question
 let answerOne = prompt('Did I go to college for Chemistry?').toLowerCase().trim();
+console.log('answerOne:', answerOne);
 if(answerOne === 'yes' || answerOne === 'y'){
   alert(`Yes ${firstName} that's correct.`);
   correctAnswers++;
@@ -23,6 +25,7 @@ else{
 
 //second question
 let answerTwo = prompt('I have a few hobbies. Is surfing one of them?').toLowerCase().trim();
+console.log('answerTwo:', answerTwo);
 if(answerTwo === 'yes' || answerTwo === 'y'){
   alert('That\'s incorrect!');
 }
@@ -36,6 +39,7 @@ else{
 
 //third question
 let answerThree = prompt('Do I have any children?').toLowerCase().trim();
+console.log('answerThree:', answerThree);
 if(answerThree === 'yes' || answerThree === 'y') {
   alert('Wrong!');
 }
@@ -49,6 +53,7 @@ else{
 
 //fourth question
 let answerFour = prompt('Did I grow up in Washinton?').toLowerCase().trim();
+console.log('answerFour:', answerFour);
 if(answerFour === 'yes'|| answerFour === 'y') {
   alert('CORRECT!!!');
   correctAnswers++;
@@ -62,6 +67,7 @@ else {
 
 //fifth question
 let answerFive = prompt('Do I come from the food industry?').toLowerCase().trim();
+console.log('answerFive: ', answerFive);
 if(answerFive === 'yes' || answerFive === 'y') {
   alert('You are correct.');
   correctAnswers++;
@@ -77,6 +83,7 @@ else{
 for(let i = 0; i < 4; i++) {
   let number = 4;
   let answerSix = prompt('What number am I thinking of?');
+  console.log('answerSix: ', answerSix);
   answerSix = Number(answerSix);
 
   if(answerSix > number) {
@@ -102,6 +109,7 @@ for(let i = 0; i < 4; i++) {
 //7th question
 for(let i = 0; i < 6; i++) {
   let answerSeven = prompt('Guess one of my favorite musics genres.').toLowerCase().trim();
+  console.log('answerSeven: ', answerSeven);
   let favoriteMusic = ['metal', 'rap', 'rock', 'folk', 'hip hop'];
   let correct = false;
 
