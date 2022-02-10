@@ -148,4 +148,6 @@ function questionSeven(){
 }
 
 //final message
-alert(`Thanks for playing this guessing game! Enjoy the site! You got ${correctAnswers} questions right out of 7!`);
+function finalMessage(){
+  alert(`Thanks for playing this guessing game! Enjoy the site! You got ${correctAnswers} questions right out of 7!`);
+}
