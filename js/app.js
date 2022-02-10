@@ -91,29 +91,31 @@ function questionFive(){
 }
 
 //6th question
-for(let i = 0; i < 4; i++) {
-  let number = 4;
-  let answerSix = prompt('What number am I thinking of?');
-  console.log('answerSix: ', answerSix);
-  answerSix = Number(answerSix);
+function questionSix(){
+  for(let i = 0; i < 4; i++) {
+    let number = 4;
+    let answerSix = prompt('What number am I thinking of?');
+    console.log('answerSix: ', answerSix);
+    answerSix = Number(answerSix);
 
-  if(answerSix > number) {
-    alert('Your guess was too high!');
-  }
-  else if(answerSix < number) {
-    alert('Your guess was too low!');
-  }
-  else if(answerSix === number){
-    alert('That\'s correct!');
-    correctAnswers++;
-    break;
-  }
-  else {
-    alert('This was not a valid answer, but it still counted as a guess!');
-  }
+    if(answerSix > number) {
+      alert('Your guess was too high!');
+    }
+    else if(answerSix < number) {
+      alert('Your guess was too low!');
+    }
+    else if(answerSix === number){
+      alert('That\'s correct!');
+      correctAnswers++;
+      break;
+    }
+    else {
+      alert('This was not a valid answer, but it still counted as a guess!');
+    }
 
-  if(i === 3) {
-    alert(`The correct answer was ${number}`);
+    if(i === 3) {
+      alert(`The correct answer was ${number}`);
+    }
   }
 }
 
