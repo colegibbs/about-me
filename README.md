@@ -30,6 +30,7 @@ Author: Cole Gibbs
 - [CSS Cheat Sheet](https://overapi.com/css)
 - [JS Number() MDN Page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 - [CSS listy-style-type MDN Page](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type)
+- Help from a TA
 
 #### Reflections and Comments 03
 
