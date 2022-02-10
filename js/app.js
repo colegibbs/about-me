@@ -27,17 +27,19 @@ function questionOne(){
 }
 
 //second question
-let answerTwo = prompt('I have a few hobbies. Is surfing one of them?').toLowerCase().trim();
-console.log('answerTwo:', answerTwo);
-if(answerTwo === 'yes' || answerTwo === 'y'){
-  alert('That\'s incorrect!');
-}
-else if(answerTwo === 'no' || answerTwo === 'n'){
-  alert('That\'s correct!');
-  correctAnswers++;
-}
-else{
-  alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
+function questionTwo(){
+  let answerTwo = prompt('I have a few hobbies. Is surfing one of them?').toLowerCase().trim();
+  console.log('answerTwo:', answerTwo);
+  if(answerTwo === 'yes' || answerTwo === 'y'){
+    alert('That\'s incorrect!');
+  }
+  else if(answerTwo === 'no' || answerTwo === 'n'){
+    alert('That\'s correct!');
+    correctAnswers++;
+  }
+  else{
+    alert(`Sorry ${firstName}, but you entered an invalid answer. Let's move on!`);
+  }
 }
 
 //third question
