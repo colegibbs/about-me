@@ -81,3 +81,28 @@ I found being the driver was much more enjoyable for me. I could feel how it cou
 My motivation for learning is to become the best programmer and problem solver that I can be. One the reasons that I like programming is that it teaches problem solving. That mentality, the mentality of a problem solver, can be taken to any area of life. That true logic is a tool and it has its place in life.
 
 Another thing that motivates me is the availability of information in the programming world. I love to learn and have always been extremely curious. Programming provides me with a practically never ending rabbit hole of information that I can forever learn from. I have to be careful to make sure that I perfect my skills before moving on to the next topic because I tend to jump from topic to topic before the time is right.
+
+## Lab 05b
+
+### About Me 05b
+In this lab I put a image of myself on my about me page. I put some styling as positioning on the image as well to center it a bit. I also deployed the site using Github pages. 
+
+Authors: Cole Gibbs
+
+#### Links and Resources 05b
+
+- The class repo
+- lecture notes
+
+#### Reflections and Comments 05b
+
+- using CSS if very tedious 
+- github pages allows you to deploy a live site
+
+Journal Entry 05:
+
+Today I learned how you can call functions inside of functions. I also learned that you have to define a kind of tracking variable outside of a loop when you are iterating over an array to find something like a sum. I also learned a bit about images in html and css. How to put them into a website and how to style them. I still find CSS very particular and I don't enjoy it much. I did enjoy solving the JS problems. I like learning how to use the JS logic to solve problem. I also learned how to deploy a website using Github pages. 
+
+My why is pretty simple. I want to improve my life and the lives of those around me while creating something that is beautiful/useful/worthwhile. In my mind there isn't much more you could as for from life. 
+
+I'll be honest. Today, I am absolutely spent. It'll be nice to have a little less work load over the weekend. 
