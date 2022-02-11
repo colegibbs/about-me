@@ -67,18 +67,17 @@ Authors: Cole Gibbs and Marcus Hartwig
 
 #### Reflections and Comments 04
 
-- When you reset css everything is reset. There are no heading sizes or list markings.
-- `Number()` is a good way to convert a string to a number
-- `break;` will only break you out of the current loop. As in if you are in a nested loop, it will break you out of the nested loop and not the nested and the parent loop.
+- Pair Programming is done in the industry
+- pair programming can be stressful especially as the navigator (I suspect this would go away as you get to know the other person better)
+- working on another persons repo and dealing with pushing and pulling can be stressful too
+- more practice = more relaxation
 
-Before I started at Code Fellows I was a Chemistry major in college and before that I was an Engineering major. Although you don't need great math skill to code, I find that the feeling I get while doing both are very similar. They both require logic which puts a particular pressure on the mind. Logic is very powerful and I am finding that Chemistry, Engineering, and Coding to be all very logical. For me, Chemistry and coding are and have unfolded for me in my mind very nicely. Today I did have a few thinks that I didn't expect.
+Journal Entry 04:
 
-The first was using the `break;` command in a loop. I noticed that you can't break from both a nested and parent loop at the same time or at least I couldn't figure out how to. I ended up using a variable in the condition of if statements that were nested inside of a for loop. This way when I implemented the nested for loop I could change the value of that variable. This caused the other if statements in the parent for loop not to run and for the loop to terminate by a final if statement with the inverse of the current variable value in the condition. In this if statement was a `break;` that caused the loop to stop because it was not inside of another nested loop.
+Today we did lab 4 which is the pair programming lab. I found it much more tedious than I expected. I'm sure that if I were to use the same partner over and over again, we would get in sync and it would flow very nicely. I felt a bit of stress being the navigator. I wasn't sure how much to say or how much detail I need to describe. This is were I could imagine if I had worked with the person before, I would know where they tend to miss certain things like syntax for example. I hope that we continue to do pair programming. I am curious about how often it is used in the industry. My first thought is that it would be less efficient than having to people working on different things at the same time. Although, I'm sure there are times when it is very useful or it wouldn't be practice.
 
-The second thing that surprised me was how much of the css is reset with the reset.css file. There is absolutely no css at all. Not even header sizes or list markers are present after the rest. I was surprised to learn that this is an industry standard. Although, when I think about it it makes sense. I'm sure there are inconsistencies in the way browsers render content and resetting it gives the developer full control.
+I found being the driver was much more enjoyable for me. I could feel how it could become such a flow state for the driver. As the driver you don't have to think many complex thoughts. All you have to do it type what you're told. I'm sure that this is related to the pair programming efficiency. Maybe having one person do the mental aspect of coding and the other do the physical results in less errors than if two people were doing both aspects at once. Also, pair programming ensures that both the commands being prompted by the Navigator and the code being written by the Driver are filter by the other person in real time.
 
-I enjoyed using for loops. I particularly liked if statements and loops nested inside of loops. I did notice that it's best to use a different variable name in a nested for loop than you did in the parent on. In the parent for loop I used `i` and in the nested, child for loop I used `j`.
+My motivation for learning is to become the best programmer and problem solver that I can be. One the reasons that I like programming is that it teaches problem solving. That mentality, the mentality of a problem solver, can be taken to any area of life. That true logic is a tool and it has its place in life.
 
-I'm excited to use functions next. I think it will clean up the code I have written a lot. There is a lot of repeats that I'm sure functions will eliminate and make it much more readable and practical.  
-
-I also learned that I am not fond of CSS. The styling of a web page doesn't excite me very much. It's the logic and functionality that I really am excited about writing and learning. I'm hoping that there are tools that allow me to used less CSS than I otherwise would.
+Another thing that motivates me is the availability of information in the programming world. I love to learn and have always been extremely curious. Programming provides me with a practically never ending rabbit hole of information that I can forever learn from. I have to be careful to make sure that I perfect my skills before moving on to the next topic because I tend to jump from topic to topic before the time is right.
