@@ -5,7 +5,6 @@ let correctAnswers = 0;
 
 //welcome message
 function welcomMessage(){
-  console.log('fristName:', firstName);
   alert(`Hey ${firstName}, it's great to have you visiting my website!`);
   alert('Before I let you onto my website your going to play a guessing game to learn some facts about me. Read? LETS GO!');
 }
@@ -14,7 +13,6 @@ function welcomMessage(){
 //first question
 function questionOne(){
   let answerOne = prompt('Did I go to college for Chemistry?').toLowerCase().trim();
-  console.log('answerOne:', answerOne);
   if(answerOne === 'yes' || answerOne === 'y'){
     alert(`Yes ${firstName} that's correct.`);
     correctAnswers++;
@@ -30,7 +28,6 @@ function questionOne(){
 //second question
 function questionTwo(){
   let answerTwo = prompt('I have a few hobbies. Is surfing one of them?').toLowerCase().trim();
-  console.log('answerTwo:', answerTwo);
   if(answerTwo === 'yes' || answerTwo === 'y'){
     alert('That\'s incorrect!');
   }
@@ -46,7 +43,6 @@ function questionTwo(){
 //third question
 function questionThree(){
   let answerThree = prompt('Do I have any children?').toLowerCase().trim();
-  console.log('answerThree:', answerThree);
   if(answerThree === 'yes' || answerThree === 'y') {
     alert('Wrong!');
   }
@@ -62,7 +58,6 @@ function questionThree(){
 //fourth question
 function questionFour(){
   let answerFour = prompt('Did I grow up in Washinton?').toLowerCase().trim();
-  console.log('answerFour:', answerFour);
   if(answerFour === 'yes'|| answerFour === 'y') {
     alert('CORRECT!!!');
     correctAnswers++;
@@ -78,7 +73,6 @@ function questionFour(){
 //fifth question
 function questionFive(){
   let answerFive = prompt('Do I come from the food industry?').toLowerCase().trim();
-  console.log('answerFive: ', answerFive);
   if(answerFive === 'yes' || answerFive === 'y') {
     alert('You are correct.');
     correctAnswers++;
