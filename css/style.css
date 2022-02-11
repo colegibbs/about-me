@@ -34,3 +34,13 @@ ol {
   list-style-type: decimal;
   
 }
+
+figure {
+  width: 80%;
+  margin: auto;
+}
+
+img {
+  width: 60%;
+  margin: auto;
+}
